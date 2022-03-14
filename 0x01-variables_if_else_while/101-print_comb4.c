@@ -24,7 +24,7 @@ int main(void)
 				putchar('0' + j);
 				putchar('0' + k);
 			}
-		}	
+		}
 	}
 	putchar('\n');
 	return (0);
