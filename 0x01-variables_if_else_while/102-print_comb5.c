@@ -24,6 +24,7 @@ int main(void)
 			putchar('0' + j / 10);
 			putchar('0' + j % 10);
 		}
+	}
 	putchar('\n');
 	return (0);
 }
