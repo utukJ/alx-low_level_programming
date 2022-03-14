@@ -3,7 +3,8 @@
 #include <time.h>
 /* more headers goes there */
 
-/** main - choses random int and prints number
+/** 
+ * main - choses random int and prints number
  * and whether it is positive or negative
  *
  * Return - 0 for success
@@ -16,11 +17,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	printf("%d", n);
 	
-	if (n > 0) 
+	if (n > 0)
 	{
 		printf(" is positive\n");
 	}
-	else if (n == 0) 
+	else if (n == 0)
 	{
 		printf(" is zero\n");
 	}
