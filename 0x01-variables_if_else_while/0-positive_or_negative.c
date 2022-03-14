@@ -7,7 +7,7 @@
  * main - choses random int and prints number
  * and whether it is positive or negative
  *
- * Return - 0 for success
+ * Return: 0 for success
  */
 int main(void)
 {
