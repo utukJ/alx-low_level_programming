@@ -11,11 +11,11 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = i+1; j <= 9; j++)
+		for (j = i + 1; j <= 9; j++)
 		{
-			for (k = j+1; k <= 9; k++)
+			for (k = j + 1; k <= 9; k++)
 			{
-				if (!(i==0 && j==1 && k==2))
+				if (!(i == 0 && j == 1 && k == 2))
 				{
 					putchar(',');
 					putchar(' ');
