@@ -14,5 +14,6 @@ int main(void)
 		putchar(ch);
 	}
 	putchar('\n');
+	printf("%d\n", 75/10);
 	return (0);
 }
