@@ -4,7 +4,7 @@
 /**
  * print_array - prints first n elements of array
  *
- * @a: array to be printed 
+ * @a: array to be printed
  * @n: number of elements to print
  *
  * Return: void
@@ -13,7 +13,8 @@ void print_array(int *a, int n)
 {	
 	int i;
 
-	printf("%d", a[0]);
+	if n > 0
+		printf("%d", a[0]);
 
 	for (i = 1; i < n; i++)
 	{
