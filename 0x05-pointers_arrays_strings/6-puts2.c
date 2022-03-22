@@ -4,7 +4,7 @@
 /**
  * puts2 - prints str to stdout in reverse followed by new line
  *
- * @str: string to be printed 
+ * @str: string to be printed
  *
  * Return: void
  */
@@ -15,7 +15,7 @@ void puts2(char *str)
 
 	str_size = strlen(str);
 
-	for (i = 0; i < str_size; i+=2)
+	for (i = 0; i < str_size; i += 2)
 	{
 		putchar(str[i]);
 	}
