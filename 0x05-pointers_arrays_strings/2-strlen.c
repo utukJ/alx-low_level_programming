@@ -15,7 +15,7 @@ int _strlen(char *s)
 		if (*s != '\0')
 		{
 			result += 1;
-			*s++;
+			s++;
 		}
 		else
 			return (result);
