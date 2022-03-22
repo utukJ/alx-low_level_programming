@@ -20,6 +20,6 @@ void rev_string(char *str)
 	{
 		tmp = *p_end;
 		*p_end = *p_start;
-		*p_start = tmp; 
+		*p_start = tmp;
 	}
 }

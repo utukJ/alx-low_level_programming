@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _puts - prints str to stdout in reverse followed by new line
+ * print_rev - prints str to stdout in reverse followed by new line
  *
  * @str: string to be printed in reverse
  *
@@ -11,9 +11,9 @@
 void print_rev(char *str)
 {
 	int i;
-	for (i = strlen(str); i >= 0; i--)
+
+	for (i = strlen(str) - 1; i >= 0; i--)
 	{
 		putchar(str[i]);
 	}
 	putchar('\n');
-}
