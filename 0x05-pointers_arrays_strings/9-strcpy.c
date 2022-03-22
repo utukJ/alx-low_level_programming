@@ -7,7 +7,7 @@
  * @dest: destination buffer
  * @src: string to be copied
  *
- * Return: buffer pointed to by dest(char *) 
+ * Return: buffer pointed to by dest(char *)
  */
 char *_strcpy(char *dest, char *src)
 {
