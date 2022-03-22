@@ -10,7 +10,7 @@
  * Return: void
  */
 void print_array(int *a, int n)
-{	
+{
 	int i;
 
 	if (n > 0)
