@@ -34,7 +34,7 @@ int should_cap(char *ptr)
 	int i;
 
 	separators = " \t\n,;.!?\"(){}";
-	
+
 	for (i = 0; separators[i] != 0; i++)
 	{
 		if (separators[i] == *(ptr - 1))
