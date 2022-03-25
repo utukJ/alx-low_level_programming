@@ -1,7 +1,7 @@
 int should_cap(char *);
 
 /**
- * string_toupper - changes all lowercase in string to uppercase
+ * cap_string - changes all lowercase in string to uppercase
  * @s: input string
  *
  * Return: pointer to modified string
@@ -43,4 +43,3 @@ int should_cap(char *ptr)
 
 	return (0);
 }
-
