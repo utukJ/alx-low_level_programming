@@ -16,10 +16,3 @@ void _print_rev_recursion(char *s)
 		putchar(*s);
 	}
 }
-
-// samuel ..... _print_rev_recursion("amuel") ===> leuma s
-// amuel ...... _print_rev_recursion("muel") ====> leum a
-// muel .... _print_rev_recursion("uel") ====> leu m
-// uel .... _print_rev_recursion("el") =====> le u
-// el ..... _print_rev_recursion("e") =====> e l
-// e ...... _print_rev_recursion("") =====>  e
