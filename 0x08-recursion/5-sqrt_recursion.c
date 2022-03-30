@@ -1,3 +1,5 @@
+int _sqrt(int n, int i);
+
 /**
  * _sqrt_recursion - main funct
  * @n: int n
