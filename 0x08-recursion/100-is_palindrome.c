@@ -1,5 +1,7 @@
 #include <string.h>
 
+int is_palindrome_recursive(int *, int *);
+
 /**
  * is_palindrome - checks if string is palindrome or not
  * @s: string to check
