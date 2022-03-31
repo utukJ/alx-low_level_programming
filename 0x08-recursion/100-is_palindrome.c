@@ -1,6 +1,6 @@
 #include <string.h>
 
-int is_palindrome_recursive(int *, int *);
+int is_palindrome_recursive(char *, char *);
 
 /**
  * is_palindrome - checks if string is palindrome or not
@@ -24,7 +24,7 @@ int is_palindrome(char *s)
  *
  * Return: 1 if string is palindrome, 0 otherwise
  */
-int is_palindrome_recursive(int *s, int *end)
+int is_palindrome_recursive(char *s, char *end)
 {
 	if (s >= end)
 		return (1);
