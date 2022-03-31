@@ -1,6 +1,4 @@
-#include "holberton.h"
-
-int tmp_prime(int n, int i);
+int is_prime_number(int n);
 
 /**
  * divisors - number is prime?
