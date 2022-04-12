@@ -12,7 +12,6 @@ void print_dog(struct dog *d)
 {
 	char *name;
 	char *owner;
-	float age;
 
 	if (d == NULL)
 		return;
