@@ -1,17 +1,19 @@
 #include "dog.h"
 
+
 /**
- * init_dog - initialize struct dog
- * @d: pointer to initialized struct
- * @name: dog's name
- * @age: dog's age
- * @owner: dog's owner
- *
- * Return: initialized struct with fields
+ * init_dog - Initialize the structure dog
+ * @d: Structure dog
+ * @name: String name
+ * @age: Float number
+ * @owner: String owner
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
+	if (d != NULL)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
