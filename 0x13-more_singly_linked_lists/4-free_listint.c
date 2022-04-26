@@ -6,7 +6,11 @@
  */
 void free_listint(listint_t *head)
 {
-	if (next != NULL)
+	if (head == NULL)
+		return;
+
+	if (head->next != NULL)
 		free_listint(head->next);
+
 	free(head);
 }
